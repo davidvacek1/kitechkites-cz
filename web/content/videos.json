@@ -1,0 +1,32 @@
+{
+  "frs-v2": [
+    {
+      "id": "_Un9PWFoeiw",
+      "url": "https://www.youtube.com/embed/_Un9PWFoeiw",
+      "title": "Kitech FRS 9m Snowkite"
+    },
+    {
+      "id": "eYfjGBApniM",
+      "url": "https://www.youtube.com/embed/eYfjGBApniM",
+      "title": "Kitech FRS Mixer test"
+    },
+    {
+      "id": "3SyLTk6-nm4",
+      "url": "https://www.youtube.com/embed/3SyLTk6-nm4",
+      "title": "Kitech FRS 9m Hydrofoil"
+    },
+    {
+      "id": "e5guCW1dnJ4",
+      "url": "https://www.youtube.com/embed/e5guCW1dnJ4",
+      "title": "Kitech FRS 15m UL Session"
+    }
+  ],
+  "magus-v1": [],
+  "general": [
+    {
+      "id": "1QbD7OqAX5o",
+      "url": "https://www.youtube.com/embed/1QbD7OqAX5o",
+      "title": "Kitech Snowkite Salzburg"
+    }
+  ]
+}

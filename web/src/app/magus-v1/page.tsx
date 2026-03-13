@@ -37,11 +37,11 @@ export default function Magus() {
       <section className="relative h-[80vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/magus-v1/Kitech-Magus-12-snowkite-2.jpg"
+            src="/images/magus-v1/magus-hero.jpg"
             alt="Kitech Magus V1"
             fill
             priority
-            className="object-cover object-top"
+            className="object-cover object-center"
             quality={90}
           />
           <div className="absolute inset-0 bg-gradient-to-b from-gray-950/80 via-gray-950/60 to-stone-50 z-10" />

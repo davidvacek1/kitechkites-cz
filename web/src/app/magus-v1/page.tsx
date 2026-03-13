@@ -24,7 +24,7 @@ export default function Magus() {
             "@context": "https://schema.org",
             "@type": "Product",
             "name": "Kitech Magus V1",
-            "image": "https://kitechkites.cz/images/magus-v1/magus-hero.jpg",
+            "image": "https://kitechkites.cz/images/magus-v1/magus-hero.jpg?v=3",
             "description": "Magus V1 je otevřená komora navržená pro maximální freeride a freestyle výkon, agresivnější ovládání a nekonečný hangtime.",
             "brand": {
               "@type": "Brand",
@@ -37,7 +37,7 @@ export default function Magus() {
       <section className="relative h-[80vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/magus-v1/magus-hero.jpg"
+            src="/images/magus-v1/magus-hero.jpg?v=3"
             alt="Kitech Magus V1"
             fill
             priority
@@ -106,7 +106,7 @@ export default function Magus() {
             </div>
             <div className="relative h-[600px] rounded-2xl overflow-hidden shadow-xl border border-stone-200">
               <Image
-                src="/images/magus-v1/magus-action-1.jpg"
+                src="/images/magus-v1/magus-action-1.jpg?v=1"
                 alt="Kitech Magus V1 action"
                 fill
                 className="object-cover object-bottom"
@@ -238,7 +238,7 @@ export default function Magus() {
           <div className="columns-1 md:columns-2 gap-6 space-y-6 max-w-5xl mx-auto">
             <div className="break-inside-avoid relative rounded-xl overflow-hidden group shadow-sm border border-stone-200">
               <Image
-                src="/images/magus-v1/magus-action-2.jpg"
+                src="/images/magus-v1/magus-action-2.jpg?v=1"
                 alt="Magus V1 na sněhu"
                 width={800}
                 height={600}
@@ -288,7 +288,7 @@ export default function Magus() {
       <section id="objednat" className="relative py-32 overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="/images/magus-v1/magus-hero.jpg"
+            src="/images/magus-v1/magus-hero.jpg?v=3"
             alt="Kitech Magus V1"
             fill
             className="object-cover object-top"

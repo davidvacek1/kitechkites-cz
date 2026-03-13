@@ -6,7 +6,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Kitech Magus V1 | High Performance Kite",
-  description: "Magus V1 je otevřená komora navržená pro maximální freeride a freestyle výkon, agresivnější ovládání a nekonečný hangtime.",
+  description: "Magus V1 je uzavřená komora navržená pro maximální freeride a freestyle výkon, agresivnější ovládání a nekonečný hangtime.",
   alternates: {
     canonical: "/magus-v1",
   },
@@ -24,8 +24,8 @@ export default function Magus() {
             "@context": "https://schema.org",
             "@type": "Product",
             "name": "Kitech Magus V1",
-            "image": "https://kitechkites.cz/images/magus-v1/magus-hero.jpg?v=3",
-            "description": "Magus V1 je otevřená komora navržená pro maximální freeride a freestyle výkon, agresivnější ovládání a nekonečný hangtime.",
+            "image": "https://kitechkites.cz/images/magus-v1/magus-hero-v3.jpg",
+            "description": "Magus V1 je uzavřená komora navržená pro maximální freeride a freestyle výkon, agresivnější ovládání a nekonečný hangtime.",
             "brand": {
               "@type": "Brand",
               "name": "Kitech Kites"
@@ -37,7 +37,7 @@ export default function Magus() {
       <section className="relative h-[80vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/magus-v1/magus-hero.jpg?v=3"
+            src="/images/magus-v1/magus-hero-v3.jpg"
             alt="Kitech Magus V1"
             fill
             priority
@@ -106,7 +106,7 @@ export default function Magus() {
             </div>
             <div className="relative h-[600px] rounded-2xl overflow-hidden shadow-xl border border-stone-200">
               <Image
-                src="/images/magus-v1/magus-action-1.jpg?v=1"
+                src="/images/magus-v1/magus-action-1-v1.jpg"
                 alt="Kitech Magus V1 action"
                 fill
                 className="object-cover object-bottom"
@@ -127,7 +127,7 @@ export default function Magus() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
             <div className="bg-stone-50 p-8 rounded-xl border border-stone-200">
-              <h3 className="text-xl font-bold text-orange-500 mb-3">Otevřená komora pro big air</h3>
+              <h3 className="text-xl font-bold text-orange-500 mb-3">Uzavřená komora pro big air</h3>
               <p className="text-gray-600 font-light">
                 Profil zaměřený na rychlost a přímý tah nahoru. Tvar, který rychle reaguje 
                 a poskytne masivní podporu při přistání z obrovských výšek.
@@ -171,7 +171,7 @@ export default function Magus() {
                 <tbody className="divide-y divide-stone-200">
                   <tr className="bg-white">
                     <td className="px-6 py-4 text-gray-800 font-medium">Typ</td>
-                    <td className="px-6 py-4 text-gray-600">Otevřená komora (open cell)</td>
+                    <td className="px-6 py-4 text-gray-600">Uzavřená komora (closed cell)</td>
                   </tr>
                   <tr className="bg-stone-50/50">
                     <td className="px-6 py-4 text-gray-800 font-medium">Dostupné velikosti</td>
@@ -238,7 +238,7 @@ export default function Magus() {
           <div className="columns-1 md:columns-2 gap-6 space-y-6 max-w-5xl mx-auto">
             <div className="break-inside-avoid relative rounded-xl overflow-hidden group shadow-sm border border-stone-200">
               <Image
-                src="/images/magus-v1/magus-action-2.jpg?v=1"
+                src="/images/magus-v1/magus-action-2-v1.jpg"
                 alt="Magus V1 na sněhu"
                 width={800}
                 height={600}
@@ -288,7 +288,7 @@ export default function Magus() {
       <section id="objednat" className="relative py-32 overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="/images/magus-v1/magus-hero.jpg?v=3"
+            src="/images/magus-v1/magus-hero-v3.jpg"
             alt="Kitech Magus V1"
             fill
             className="object-cover object-top"

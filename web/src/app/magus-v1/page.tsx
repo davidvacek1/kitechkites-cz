@@ -41,10 +41,10 @@ export default function Magus() {
             alt="Kitech Magus V1"
             fill
             priority
-            className="object-cover object-[50%_30%]"
+            className="object-cover object-top"
             quality={90}
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-gray-950/60 via-gray-950/30 to-stone-50 z-10" />
+          <div className="absolute inset-0 bg-gradient-to-b from-gray-950/80 via-gray-950/60 to-stone-50 z-10" />
         </div>
 
         <div className="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center pt-20">

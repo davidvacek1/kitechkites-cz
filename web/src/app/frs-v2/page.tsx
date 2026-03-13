@@ -6,7 +6,7 @@ import LightboxGallery from "@/components/Lightbox";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Kitech FRS V2 | Versatilní komorový kite",
+  title: "Kitech FRS V2 | Bezpečný výkon bez kompromisů",
   description: "Univerzální komorový kite Kitech FRS V2 s bezkonkurenčním rozsahem větru, extrémní stabilitou a plynulým výkonem.",
   alternates: {
     canonical: "/frs-v2",
@@ -68,7 +68,7 @@ export default function FRS() {
             Kitech FRS V2
           </h1>
           <p className="mt-4 max-w-3xl mx-auto text-xl md:text-3xl text-gray-200 drop-shadow-md animate-fade-in-slow font-light">
-            Versatilní kite nové generace
+            Bezpečný výkon bez kompromisů
           </p>
           <div className="mt-10 flex justify-center animate-fade-in-slow">
             <a 
